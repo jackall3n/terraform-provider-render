@@ -11,5 +11,6 @@ Do not keep your authentication password in HCL for production environments, use
 ```terraform
 provider "render" {
   apiKey = "your-api-key"
+  email  = "your-render-email"
 }
 ```
